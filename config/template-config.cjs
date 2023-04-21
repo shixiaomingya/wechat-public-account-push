@@ -33,9 +33,8 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      {{moment_copyrighting.DATA}}
-      
       {{note_ch.DATA}}
+      
       {{note_en.DATA}}
     `
   },
