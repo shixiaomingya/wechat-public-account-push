@@ -6,12 +6,11 @@ const TEMPLATE_CONFIG = [
     desc: `
       **{{date.DATA}}**
       
-      下个休息日：{{holidaytts.DATA}}
+      {{earthy_love_words.DATA}}
       
       ---
-      省份：{{province.DATA}}
       
-      城市：{{city.DATA}}
+      城市：{{province.DATA}} {{city.DATA}}
       
       天气：{{weather.DATA}}
       
@@ -19,11 +18,13 @@ const TEMPLATE_CONFIG = [
       
       风向: {{wind_direction.DATA}}
       
-      风级: {{wind_scale.DATA}}
+      风级：{{wind_scale.DATA}}
       
-      提示：{{notice.DATA}}
+      tips：{{notice.DATA}}
       
       {{comprehensive_horoscope.DATA}}
+      
+      下个休息日：{{holidaytts.DATA}}
       
       ---
       
