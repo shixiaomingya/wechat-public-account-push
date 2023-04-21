@@ -22,7 +22,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU22092TjR8TRJ5b3rNbehdlxspIirCQyCRPOz8I',
+      id: 'PDU22096TQ9dfc9zymfPb61xqcBqGvoDgzsXdTORK',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -34,6 +34,9 @@ const USER_CONFIG = {
         },
         {
           type: '节日', name: '相识纪念日', year: '2023', date: '03-29',
+        },
+        {
+          type: '节日', name: '恋爱纪念日', year: '2023', date: '04-07',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
