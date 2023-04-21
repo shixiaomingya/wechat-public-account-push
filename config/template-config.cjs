@@ -15,11 +15,13 @@ const TEMPLATE_CONFIG = [
       
       天气：{{weather.DATA}}
       
-      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      气温：{{min_temperature.DATA}} ~ {{max_temperature.DATA}}
       
       风向: {{wind_direction.DATA}}
       
       风级: {{wind_scale.DATA}}
+      
+      提示：{{notice.DATA}}
       
       {{comprehensive_horoscope.DATA}}
       
@@ -33,11 +35,12 @@ const TEMPLATE_CONFIG = [
       
       {{moment_copyrighting.DATA}}
       
-      {{poetry_title.DATA}} {{poetry_content.DATA}}
+      {{note_ch.DATA}}
+      {{note_en.DATA}}
     `
   },
   {
-    id: '0002',
+    id: '0001',
     title: '推送完成提醒',
     desc: `
       服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
