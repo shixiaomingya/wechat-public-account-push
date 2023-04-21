@@ -9,6 +9,7 @@ const TEMPLATE_CONFIG = [
       下个休息日：{{holidaytts.DATA}}
       
       ---
+      省份：{{province.DATA}}
       
       城市：{{city.DATA}}
       
