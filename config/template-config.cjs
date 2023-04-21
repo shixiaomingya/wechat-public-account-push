@@ -28,9 +28,9 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今天是我们相识的第{{love_day.DATA}}天
+      今天是我们相识的第{{all_day.DATA}}天
 
-      今天是我们相爱的第{{all_day.DATA}}天
+      今天是我们相爱的第{{love_day.DATA}}天
       
       {{birthday_message.DATA}}
       
